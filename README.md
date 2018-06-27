@@ -34,3 +34,5 @@ En el índex los artículos estarán en grillas de forma clara, destacando los m
 Se usará en el diseño de la página, grillas, jumbotron, carrusel, imágenes, footer, botones, nav, navbar, logos,  cartas, etc.
 
 Se requiere que el sitio sea agradable a la vista, fácil de navegar, con información clara, precisa, que recove la información necesaria para cautivar al visitante con los encantos de la comuna, y que permita que el quilicurano se sienta orgulloso de su comuna y quiera visitar los lugares de los que dispone cerca de su hogar.
+
+El Layout de blog.
