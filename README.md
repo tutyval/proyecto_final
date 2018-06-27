@@ -16,8 +16,7 @@ En Arquitectura se destacan edificios sobresalientes, ya sea por su diseño, his
 En gastronomía ser hará un recorrido por las mejores picas de la comuna.
 En Imperdibles se incluirá diferentes lugares y/o actividades que son destino obligatorio al visitar la comuna. 
 
-
-La página contará con una barra superior que incluye:
+Al entrar a la pagina el usuario se encontrará con una barra superior, fija que al ser responsiva cambiara a una hamburgesa, con el logo de la comuna en el lado izquierdo, la que incluye:
 -índex
 -turismo
 -arte callejero
@@ -26,3 +25,12 @@ La página contará con una barra superior que incluye:
 -imperdibles
 -contacto.
 
+Los colores elegidos para la página son:
+
+![paleta de colores](imagen/paleta.png)
+
+En el índex los artículos estarán en grillas de forma clara, destacando los más relevantes al comienzo de la página.
+
+Se usará en el diseño de la página, grillas, jumbotron, carrusel, imágenes, footer, botones, nav, navbar, logos,  cartas, etc.
+
+Se requiere que el sitio sea agradable a la vista, fácil de navegar, con información clara, precisa, que recove la información necesaria para cautivar al visitante con los encantos de la comuna, y que permita que el quilicurano se sienta orgulloso de su comuna y quiera visitar los lugares de los que dispone cerca de su hogar.
