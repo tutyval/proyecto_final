@@ -5,3 +5,9 @@
 	width: 30px;
 	height: 30px;
 }
+.jumbotron {
+	background-image: url(https://i.pinimg.com/736x/69/b3/a6/69b3a61dafd2044d11cb1fbd2798a30d--walk-in-danbo.jpg);
+}
+.card {
+	background-image: url(https://i.pinimg.com/736x/69/48/13/694813e7c40d33101ee568d9f5e65d75--little-boxes-amazon-box.jpg);
+}
