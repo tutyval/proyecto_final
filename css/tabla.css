@@ -6,7 +6,7 @@
 	height: 30px;
 }
 .jumbotron {
-	background-image: url(https://i.pinimg.com/736x/69/b3/a6/69b3a61dafd2044d11cb1fbd2798a30d--walk-in-danbo.jpg);
+	background-image: url("../imagen/comida.png");
 }
 .btn-col-1 {
 	padding: 10px;
