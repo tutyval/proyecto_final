@@ -74,7 +74,8 @@ img {
 	align-items: center;
 }
 .modal__img {
-	width: 80%
+	width: 50%
+	height:50%;
 }
 .modal__boton {
 	width: 50px;
@@ -87,8 +88,8 @@ img {
 	border-radius: 50%;
 	cursor: pointer;
 	text-align: center;
-
+	padding-top: 6px;
 	position: absolute;
-	right: 40px;
-	top: 20px;
+	right: 200px;
+	top: 200px;
 }

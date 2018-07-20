@@ -4,9 +4,6 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <!--javascrip-->
-  <script type="text/javascript" src="java.js"></script>
-
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<!-- llamado a css-->
@@ -41,12 +38,73 @@
 			</li>
 		</ul><!--cierre botones barra-->
 	</nav><!--cierre barra-->
-	<!-- formulario-->
-	<form> <div class= "form-group" > <label for= "exampleFormControlInput1" > Email </label> 
-		<input type= "email" class= "form-control" id= "exampleFormControlInput1" placeholder= "name@example.com" > </div> 
-		<div class= "form-group" > <label for= "exampleFormControlSelect1" > Elige Destinatario</label> <select class= "form-control" id= "exampleFormControlSelect1" > <option> Arquitectura </option> <option> Arte Callejero </option> <option> Gastronomía</option> <option> Sugerencia </option> <option> Reclamo </option> </select> </div>
-		<div class= "form-group" > <label for= "exampleFormControlTextarea1" > Dejanos tu comentario</label> <textarea class= "form-control" id= "exampleFormControlTextarea1" rows= "3" ></textarea> </div> 
-	</form> <!-- fin formulario-->
+	
+	<div class="container">
+    <div class="row"><!--inicio columnas-->
+        <div class="col-12 col-sd-12 col-md-8 col-lg-8"><!--formulario-->
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Contactanos</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Ingresa tu mensaje aquí" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>})
+                    </fieldset>
+                </form>
+            </div>
+        </div><!-- fin formulario-->
+        <div class="col-12 col-sd-12 col-md-4 col-lg-4">
+        	<h3>Donde encontrarnos</h3>
+        	<p>Municipalidad</p>
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.089415252217!2d-70.73185948518561!3d-33.36873158079738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c0d9c6df53cf%3A0xd45052ae186994ee!2sJos%C3%A9+Francisco+Vergara+450%2C+Quilicura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1532044632776" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        	<br>
+        	<p>Cultura</p>
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.1332848391235!2d-70.73212848518565!3d-33.367586180797716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c0c542ec4465%3A0xd8dd01b76cc2da74!2sBiblioteca+Municipal+de+Quilicura!5e0!3m2!1ses!2scl!4v1532044957684" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        	<br>
+        	<p>Medio ambiente</p>
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.059808082061!2d-70.73457198518557!3d-33.369504580797084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c0d904ea3f75%3A0x9a8cbc4d9eddf3dd!2sCovadonga+520%2C+Quilicura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1532045122611" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        	
+        </div>
+    </div><!--fin grillas-->
+   </div><!-- fin container-->
+
  
   <footer>
     <div class="footer"><!--inicio grillas-->
@@ -78,5 +136,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	    <!--javascrip-->
+  <script type="text/javascript" src="javascrip/scripts.js"></script>
 </body>
 </html>
